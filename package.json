@@ -1,0 +1,39 @@
+{
+  "name": "quotegenerator2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cinnabar02/quotegenerator2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cinnabar02/quotegenerator2/issues"
+  },
+  "homepage": "https://github.com/cinnabar02/quotegenerator2#readme",
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "canvas": "^3.2.3",
+    "colord": "^2.9.3",
+    "dotenv": "^17.4.2",
+    "vk-io": "^4.10.1"
+  },
+  "allowScripts": {
+    "better-sqlite3@12.11.1": true,
+    "canvas@3.2.3": true,
+    "esbuild@0.28.1": true
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
